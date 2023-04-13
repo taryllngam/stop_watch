@@ -1,7 +1,9 @@
 
 let tens = 00;
 let seconds = 00;
+let hours = 00;
 let intervals;
+const getHours = document.getElementById('hours')
 const getSeconds = document.getElementById('seconds')
 const getTens = document.getElementById('tens')
 const start = document.getElementById('start_btn')
@@ -31,12 +33,17 @@ const startTimer = () => {
         getTens.innerHTML = '0' + tens;
     }if (tens > 9){
         getTens.innerHTML = tens;
-    }if (tens > 99){
+    }if (tens > 60){
         seconds++;
         getSeconds.innerHTML = '0' + seconds;
         tens = 0;
         getTens.innerHTML = '0' + 0;
     }if (seconds > 9){
         getSeconds.innerHTML = seconds;
+    }if(seconds > 60) {
+        hours++;
+        getHours.innerHTML = '0' + hours;
+        seconds = 0;
+        getSeconds.innerHTML = '0' + 0;
     }
 }
