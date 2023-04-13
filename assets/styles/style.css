@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 5%;
+  background-image: linear-gradient(rgba(27, 26, 26, 0),rgb(154, 154, 184)), url(../images/stop.jpg);
+  background-size: cover;
+}
+
+.container img {
+  width: 20%;
+  opacity: 50%;
+  align-self: center;
+}
+
+.container h1 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+
+}
+
+.container p {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  justify-self: center;
+  font-size: 500%;
+  padding-bottom: 2%;
+}
+
+#btns {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 2%;
+}
+
+#start_btn {
+  width: 9%;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+#stop_btn {
+  width: 9%;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+#reset_btn {
+  width: 9%;
+  height: 5vh;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+#reset_btn:hover {
+  opacity: 70%;
+}
+
+#start_btn:hover {
+  opacity: 70%;
+}
+
+#stop_btn:hover {
+  opacity: 70%;
+}
