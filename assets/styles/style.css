@@ -8,17 +8,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   gap: 5%;
-  background-image: linear-gradient(rgba(27, 26, 26, 0), rgb(154, 154, 184)),
-    url(../images/stop.jpg);
+  background-image: linear-gradient(#1b1a1a00, #9a9ab8), url("../images/stop.jpg");
   background-size: cover;
 }
 
 .container img {
   width: 20%;
-  opacity: 50%;
+  opacity: 0.5;
   align-self: center;
 }
 
@@ -45,35 +42,35 @@
   gap: 2%;
 }
 
-#start_btn {
+#start-btn {
   width: 9%;
   height: 5vh;
   border-radius: 15px;
   background-color: aliceblue;
 }
 
-#stop_btn {
+#stop-btn {
   width: 9%;
   height: 5vh;
   border-radius: 15px;
   background-color: aliceblue;
 }
 
-#reset_btn {
+#reset-btn {
   width: 9%;
   height: 5vh;
   border-radius: 15px;
   background-color: aliceblue;
 }
 
-#reset_btn:hover {
-  opacity: 70%;
+#reset-btn:hover {
+  opacity: 0.7;
 }
 
-#start_btn:hover {
-  opacity: 70%;
+#start-btn:hover {
+  opacity: 0.7;
 }
 
-#stop_btn:hover {
-  opacity: 70%;
+#stop-btn:hover {
+  opacity: 0.7;
 }

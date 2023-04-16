@@ -6,9 +6,9 @@ let intervals;
 const getHours = document.getElementById('hours')
 const getSeconds = document.getElementById('seconds')
 const getTens = document.getElementById('tens')
-const start = document.getElementById('start_btn')
-const stop = document.getElementById('stop_btn')
-const reset = document.getElementById('reset_btn')
+const start = document.getElementById('start-btn')
+const stop = document.getElementById('stop-btn')
+const reset = document.getElementById('reset-btn')
 
 
 start.addEventListener('click', () => {
