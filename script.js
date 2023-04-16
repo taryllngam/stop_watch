@@ -1,5 +1,5 @@
 
-let tens = 00;
+let tens = 0;
 let seconds = 00;
 let hours = 00;
 let intervals;
