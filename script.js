@@ -12,7 +12,7 @@ const reset = document.getElementById('reset_btn')
 
 
 start.addEventListener('click', () => {
-   intervals = setInterval(startTimer, 10)
+   intervals = setInterval(startTimer, 16)
 })
 
 stop.addEventListener('click',() =>{
@@ -23,8 +23,10 @@ reset.addEventListener('click', () =>{
     clearInterval(intervals);
     tens = '00';
     seconds = '00';
+    hours = '00';
     getTens.innerHTML = tens;
     getSeconds.innerHTML = seconds;
+    getHours.innerHTML = hours;
 })
 
 const startTimer = () => {

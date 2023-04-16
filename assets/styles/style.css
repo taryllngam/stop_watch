@@ -11,7 +11,8 @@
   /* justify-content: center;
   align-items: center; */
   gap: 5%;
-  background-image: linear-gradient(rgba(27, 26, 26, 0),rgb(154, 154, 184)), url(../images/stop.jpg);
+  background-image: linear-gradient(rgba(27, 26, 26, 0), rgb(154, 154, 184)),
+    url(../images/stop.jpg);
   background-size: cover;
 }
 
@@ -26,7 +27,6 @@
   align-self: center;
   justify-content: center;
   justify-self: center;
-
 }
 
 .container p {
@@ -39,10 +39,10 @@
 }
 
 #btns {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
 }
 
 #start_btn {
